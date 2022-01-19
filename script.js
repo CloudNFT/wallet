@@ -7,19 +7,9 @@ async function cap(){
 
   const constraints = {
    video: {
-    width: {
-      min: 1280,   
-      max: 2560,
-      ideal: 1920
-    },
-    height: {
-      min: 720,    
-      max: 1440,
-      ideal: 1080
-    },
-    facingMode: {
-      exact: 'environment' //belakang
-    }
+       facingMode: {
+          exact: 'environment'
+       }
   }
 };
 
