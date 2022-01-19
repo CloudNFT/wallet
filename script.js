@@ -6,10 +6,9 @@ async function cap(){
   const captureButton = document.getElementById('capture');
 
   const constraints = {
-   video: {
-       facingMode: {
-          exact: 'environment'
-       }
+   video: true,
+   facingMode: {
+     exact: 'environment'
   }
 };
 
